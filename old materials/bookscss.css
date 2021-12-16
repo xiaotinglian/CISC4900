@@ -1,0 +1,35 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    overflow: hidden;
+    background-color: lightgray;
+    font-family: brush script mt;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    flex-shrink: 2;
+}
+
+
+/* mouse touch change color */
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
